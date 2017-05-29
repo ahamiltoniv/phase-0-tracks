@@ -9,9 +9,32 @@ cite {
   margin-top: 10px;
 }
 
+main{
+  max-width: 960px;
+  width: 80%;
+  /*display: inline;*/
+  display: inline-block;
+  position: relative;
+  left: 20%;
+  /*vertical-align: top;*/
+
+}
+
 #external-links ul {
+  display: block;
+  /*position: absolute;*/
   list-style-type: none;
   padding-left: 0px;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: top;
+}
+
+#external-links h1{
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* you're welcome to edit the
@@ -29,4 +52,24 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  #external-links ul{
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #external-links ul{
+    display: block;
+  }
+
+  main{
+    display: block;
+  }
 }
