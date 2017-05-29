@@ -1,0 +1,26 @@
+section#contact-info{
+	font-size: .8em;
+}
+
+section.job{
+	border-radius: 25px;
+	background-color: #e9e5dc;
+	padding: 10px;
+	margin-top:	20px;
+}
+
+ul.lists{
+	font-size: .8em;
+}
+
+ul:hover{/*Will highlight ul list elements in pink when hovered over*/
+	background-color: pink;
+}
+
+/*The cascading part of css refers to the tiered system of priorities or weights that a browser uses in
+applying style rules to elements which have multiple conflicting rules applied to them. As an example,
+class elements have a higher priority and thus supercede id elements. */
+
+ol > li{ /*I changed one of the lists to an ordered list in index.html to demonstrate this child selector operator*/
+	color: red;
+}
