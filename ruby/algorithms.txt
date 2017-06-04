@@ -1,0 +1,58 @@
+Elevator Robot
+
+-Decide what floor to go to
+-Decide what floor you are on
+
+-Push button to call elevator
+	-Search for any labeled buttons for "up" or "down"
+	-Press up to go to a higher floor
+	-press down for a lower floor
+-When doors open, identify up or down travel indicator arrow/display
+	-if matches the desired direction, enter the elevator
+-check wall beside the doors for button panel
+-Find desired number
+	-Find highest button row, find left-most button on top row
+	-while button is not correct floor
+		-read label
+		-if wrong, move to button to the right
+			if no button on the right, move down a row and all the way to the left
+-when correct button is found, press button
+-wait
+-when elevator stops, check current floor
+-if current floor is desired, exit elevator
+
+Brushing Teeth
+
+-Get toothbrush
+-get toothpaste
+-put toothpaste on toothbrush
+-put toothbrush in mouth
+-rub bristles against outside face of teeth
+	-bottom jaw
+		-right
+		-front
+		-left
+	-top jaw
+		-right
+		-front
+		-left
+-rub bristles against chewing surface of teeth
+	-bottom jaw
+		-right
+		-front
+		-left
+	-top jaw
+		-right
+		-front
+		-left
+-rub bristles against inside face of teeth
+	-bottom jaw
+		-right
+		-front
+		-left
+	-top jaw
+		-right
+		-front
+		-left
+-rinse toothbrush
+-rinse mouth
